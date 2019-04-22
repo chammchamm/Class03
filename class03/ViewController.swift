@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var ibmsg: UILabel!
     
     @IBAction func pushdown(_ sender: Any) {
-        ibmsg.text = "hhhh"
+        ibmsg.text = "hello class03"
         
     }
     
