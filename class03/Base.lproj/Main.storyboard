@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="05G-jg-AyL">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -94,14 +94,37 @@
             </objects>
             <point key="canvasLocation" x="1797.1014492753625" y="563.83928571428567"/>
         </scene>
-        <!--View Controller-->
+        <!--My Browser View Controller-->
         <scene sceneID="BBF-D3-RmP">
             <objects>
-                <viewController id="22x-Vh-4sa" sceneMemberID="viewController">
+                <viewController id="22x-Vh-4sa" customClass="MyBrowserViewController" customModule="class03" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Blf-Wb-LCi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QD7-Xw-dKH">
+                                <rect key="frame" x="341" y="766" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="JK3-yr-ALD"/>
+                                    <constraint firstAttribute="width" constant="46" id="aWv-5G-gMZ"/>
+                                </constraints>
+                                <state key="normal" title="Go"/>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="p7e-MC-Jqk">
+                                <rect key="frame" x="20" y="766" width="313" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="QD7-Xw-dKH" firstAttribute="leading" secondItem="p7e-MC-Jqk" secondAttribute="trailing" constant="8" id="5M5-8j-fmk"/>
+                            <constraint firstItem="FqN-WH-NnW" firstAttribute="bottom" secondItem="QD7-Xw-dKH" secondAttribute="bottom" constant="17" id="FuR-0u-19t"/>
+                            <constraint firstItem="p7e-MC-Jqk" firstAttribute="leading" secondItem="FqN-WH-NnW" secondAttribute="leading" constant="20" id="Maa-7Z-ry0"/>
+                            <constraint firstItem="QD7-Xw-dKH" firstAttribute="centerY" secondItem="p7e-MC-Jqk" secondAttribute="centerY" id="QF0-ra-ilD"/>
+                            <constraint firstItem="FqN-WH-NnW" firstAttribute="trailing" secondItem="QD7-Xw-dKH" secondAttribute="trailing" constant="27" id="rzO-pF-uya"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="FqN-WH-NnW"/>
                     </view>
                 </viewController>
