@@ -115,6 +115,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="22x-Vh-4sa" id="Aed-03-iEq"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -127,6 +130,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="FqN-WH-NnW"/>
                     </view>
+                    <connections>
+                        <outlet property="btnGoBottomConstraint" destination="FuR-0u-19t" id="kMx-5Q-xVi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eeg-PK-ZLR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
