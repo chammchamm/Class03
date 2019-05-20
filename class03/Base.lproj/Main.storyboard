@@ -119,6 +119,15 @@
                                     <outlet property="delegate" destination="22x-Vh-4sa" id="Aed-03-iEq"/>
                                 </connections>
                             </textField>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xHJ-gp-7kf">
+                                <rect key="frame" x="0.0" y="88" width="414" height="670"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
                         </subviews>
                         <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -132,6 +141,7 @@
                     </view>
                     <connections>
                         <outlet property="btnGoBottomConstraint" destination="FuR-0u-19t" id="kMx-5Q-xVi"/>
+                        <outlet property="myWebView" destination="xHJ-gp-7kf" id="ld3-jg-JVo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eeg-PK-ZLR" userLabel="First Responder" sceneMemberID="firstResponder"/>

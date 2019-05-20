@@ -9,15 +9,35 @@
 import UIKit
 import WebKit
 
-class MyBrowserViewController: UIViewController {
+class MyBrowserViewController: UIViewController, UITextFieldDelegate, AsyncReponseDelegate {
+    
+    
+    func receviedReponse(_ sender: AsyncRequestWorker, responseString: String, tag: Int) {
+        
+        print(responseString)
+        
+        myWebView.loadHTMLString(responseString, URL(string: "https://www.google.com")!)
+    }
+    
+
 
     @IBOutlet weak var btnGoBottomConstraint: NSLayoutConstraint!
+
+    @IBOutlet weak var myWebView: WKWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
-//        myWebView.load(URLRequest(url, URL(string: "http://www.google.com")!))
+    let worker = AsyncRequestWorker()
+        
+        worker.reponseDelegate = self
+        
+        worker.getResponse(from: "https://www.google.com", tag: 1)
+        
+        
+//        myWebView.load(URLRequest( url: URL(string: "https://www.google.com")!))
 //        myWebView,load(URLRequest(url,URL(s))
     }
     
