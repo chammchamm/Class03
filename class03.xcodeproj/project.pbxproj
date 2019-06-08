@@ -16,7 +16,15 @@
 		06ECDCE0226D5F0100332817 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06ECDCDE226D5F0100332817 /* LaunchScreen.storyboard */; };
 		06ECDCEB226D5F0100332817 /* class03Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ECDCEA226D5F0100332817 /* class03Tests.swift */; };
 		06ECDCF6226D5F0100332817 /* class03UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ECDCF5226D5F0100332817 /* class03UITests.swift */; };
+		06F349D122AB431200F09803 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F349D022AB431200F09803 /* CoreLocation.framework */; };
+		06F349D322AB439400F09803 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F349D222AB439400F09803 /* MapKit.framework */; };
+		06F75E4622A4B45500A9DC40 /* imageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F75E4522A4B45500A9DC40 /* imageVC.swift */; };
+		06F75E4A22A4D71400A9DC40 /* FileWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F75E4722A4D71400A9DC40 /* FileWorker.swift */; };
+		06F75E4B22A4D71400A9DC40 /* ServiceCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F75E4822A4D71400A9DC40 /* ServiceCategory.swift */; };
+		06F75E4C22A4D71400A9DC40 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F75E4922A4D71400A9DC40 /* Store.swift */; };
 		06F9DF9122891FCE00E5DFF9 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F9DF9022891FCE00E5DFF9 /* WebKit.framework */; };
+		06FD2F2C229B999100FCE702 /* ServiceCategoryContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FD2F2B229B999100FCE702 /* ServiceCategoryContext.swift */; };
+		06FFFBE922A9CF82008C67A3 /* MyMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FFFBE822A9CF82008C67A3 /* MyMapViewController.swift */; };
 		6FAA3C63323C93D7F8B9AD35 /* Pods_class03Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F4B037A4EB0F03F8D1CFA95 /* Pods_class03Tests.framework */; };
 		9A229FECF2A19203C82F581E /* Pods_class03.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D63A4363B8EA4C7C041BBC5 /* Pods_class03.framework */; };
 		C057211E258E9D0A49A6724D /* Pods_class03UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C56DF24F32F1FF1131C3120 /* Pods_class03UITests.framework */; };
@@ -55,7 +63,15 @@
 		06ECDCF1226D5F0100332817 /* class03UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = class03UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06ECDCF5226D5F0100332817 /* class03UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = class03UITests.swift; sourceTree = "<group>"; };
 		06ECDCF7226D5F0100332817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06F349D022AB431200F09803 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		06F349D222AB439400F09803 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		06F75E4522A4B45500A9DC40 /* imageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageVC.swift; sourceTree = "<group>"; };
+		06F75E4722A4D71400A9DC40 /* FileWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileWorker.swift; path = "../../../../Downloads/SwiftTips-master/FileWorker.swift"; sourceTree = "<group>"; };
+		06F75E4822A4D71400A9DC40 /* ServiceCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceCategory.swift; sourceTree = "<group>"; };
+		06F75E4922A4D71400A9DC40 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		06F9DF9022891FCE00E5DFF9 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		06FD2F2B229B999100FCE702 /* ServiceCategoryContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceCategoryContext.swift; sourceTree = "<group>"; };
+		06FFFBE822A9CF82008C67A3 /* MyMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMapViewController.swift; sourceTree = "<group>"; };
 		09444723811D2CE37E83E20B /* Pods-class03.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-class03.release.xcconfig"; path = "Target Support Files/Pods-class03/Pods-class03.release.xcconfig"; sourceTree = "<group>"; };
 		2F4B037A4EB0F03F8D1CFA95 /* Pods_class03Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_class03Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B90278A2AD7459BC1A0CD63 /* Pods-class03UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-class03UITests.release.xcconfig"; path = "Target Support Files/Pods-class03UITests/Pods-class03UITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -72,6 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06F349D322AB439400F09803 /* MapKit.framework in Frameworks */,
+				06F349D122AB431200F09803 /* CoreLocation.framework in Frameworks */,
 				06F9DF9122891FCE00E5DFF9 /* WebKit.framework in Frameworks */,
 				9A229FECF2A19203C82F581E /* Pods_class03.framework in Frameworks */,
 			);
@@ -121,14 +139,20 @@
 		06ECDCD4226D5EFF00332817 /* class03 */ = {
 			isa = PBXGroup;
 			children = (
+				06FD2F2B229B999100FCE702 /* ServiceCategoryContext.swift */,
 				06ECDCD5226D5EFF00332817 /* AppDelegate.swift */,
 				06ECDCD7226D5EFF00332817 /* ViewController.swift */,
 				06ECDCD9226D5EFF00332817 /* Main.storyboard */,
+				06F75E4722A4D71400A9DC40 /* FileWorker.swift */,
+				06F75E4822A4D71400A9DC40 /* ServiceCategory.swift */,
+				06F75E4922A4D71400A9DC40 /* Store.swift */,
 				06ECDCDC226D5F0100332817 /* Assets.xcassets */,
 				06ECDCDE226D5F0100332817 /* LaunchScreen.storyboard */,
 				06ECDCE1226D5F0100332817 /* Info.plist */,
 				0667DCA8227FDEE40098CC9E /* MyBrowserViewController.swift */,
 				060F225522924AD80068FE5B /* AsyncRequestWorker.swift */,
+				06F75E4522A4B45500A9DC40 /* imageVC.swift */,
+				06FFFBE822A9CF82008C67A3 /* MyMapViewController.swift */,
 			);
 			path = class03;
 			sourceTree = "<group>";
@@ -154,6 +178,8 @@
 		06F9DF8F22891FCE00E5DFF9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				06F349D222AB439400F09803 /* MapKit.framework */,
+				06F349D022AB431200F09803 /* CoreLocation.framework */,
 				06F9DF9022891FCE00E5DFF9 /* WebKit.framework */,
 				5D63A4363B8EA4C7C041BBC5 /* Pods_class03.framework */,
 				2F4B037A4EB0F03F8D1CFA95 /* Pods_class03Tests.framework */,
@@ -381,12 +407,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-class03/Pods-class03-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,10 +429,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06FFFBE922A9CF82008C67A3 /* MyMapViewController.swift in Sources */,
 				060F225622924AD80068FE5B /* AsyncRequestWorker.swift in Sources */,
 				06ECDCD8226D5EFF00332817 /* ViewController.swift in Sources */,
+				06FD2F2C229B999100FCE702 /* ServiceCategoryContext.swift in Sources */,
+				06F75E4C22A4D71400A9DC40 /* Store.swift in Sources */,
 				0667DCA9227FDEE40098CC9E /* MyBrowserViewController.swift in Sources */,
+				06F75E4622A4B45500A9DC40 /* imageVC.swift in Sources */,
 				06ECDCD6226D5EFF00332817 /* AppDelegate.swift in Sources */,
+				06F75E4A22A4D71400A9DC40 /* FileWorker.swift in Sources */,
+				06F75E4B22A4D71400A9DC40 /* ServiceCategory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

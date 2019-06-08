@@ -2,8 +2,8 @@
 //  AsyncRequestWorker.swift
 //  MVCDemo
 //
-//  Created by 房懷安 on 2019/2/1.
-//  Copyright © 2019 房懷安. All rights reserved.
+//  Created by cclin on 2019/2/1.
+//  Copyright © 2019 cclin. All rights reserved.
 //
 import Foundation
 import UIKit
@@ -26,8 +26,6 @@ class AsyncRequestWorker {
         let session = URLSession(configuration: config)
         
         let task = session.dataTask(with: request, completionHandler: {(data, response, error) in
-        
-
             
             let httpResponse = response as! HTTPURLResponse
             let statusCode = httpResponse.statusCode
@@ -40,6 +38,11 @@ class AsyncRequestWorker {
                 NotificationCenter.default.post(name: NSNotification.Name(rawValue: "response.received"), object: self, userInfo: ["response": responseString])
                 
                 self.reponseDelegate?.receviedReponse(self, responseString: responseString, tag: tag)
+                
+ //               print(responseString)
+            }
+            else{
+                print("\(statusCode)")
             }
         })
         task.resume()

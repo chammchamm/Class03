@@ -4,6 +4,18 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>請授權使用位置資訊</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>請授權使用位置資訊</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>請授權使用位置資訊</string>
+	<key>NSLocationUsageDescription</key>
+	<string>請授權使用位置資訊</string>
+	<key>CFBundleSignature</key>
+	<string></string>
+	<key>NSHumanReadableCopyright</key>
+	<string></string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -12,6 +24,8 @@
 	<string>6.0</string>
 	<key>CFBundleName</key>
 	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
