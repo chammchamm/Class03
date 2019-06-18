@@ -19,8 +19,6 @@ class ViewController: UIViewController {
     
     
     @IBAction func btnMoveToImageClicked(_ sender: Any) {
-        
-        
         let alert = UIAlertController(title: "資訊", message:"YN", preferredStyle: .alert)
         
         let okAction = UIAlertAction(title: "YES", style: .default, handler: { action in
@@ -41,9 +39,19 @@ class ViewController: UIViewController {
     }
   
     
-   @IBAction func btnMapClicked(_ sender: UIButton) {
+    @IBAction func btnTableClicked(_ sender: Any) {
+    
+    self.performSegue(withIdentifier: "moveToTableSegue", sender: self)
+    }
+    
+    
+   
+    @IBAction func btnMapClicked(_ sender: Any) {
         self.performSegue(withIdentifier: "moveToMapSegue", sender: self)
     }
+    
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -52,11 +60,9 @@ class ViewController: UIViewController {
         let worker : FileWorker = FileWorker()
         
         worker.writeToFile(content: "中文", fileName: "info.txt", tag: 0)
-        
         print("return from fileworker")
         
         let result: String = worker.readFromFile(fileName: "info.txt", tag: 0)
-        
         print(result)
     }
     
@@ -64,17 +70,15 @@ class ViewController: UIViewController {
         
         if (segue.identifier == "moveToM2KSegue") {
             print("move to M2Kseque")
-            
-//            let vc = segue.destination as! ImageVC
-//            vc.index = 5
-            
         } else
     
         if (segue.identifier == "moveToMapSegue") {
             print("move To MapSegue")
-                
- //           let vc = segue.destination as! MyMapViewController
- //           vc.index = 7
+ 
+        } else
+        if (segue.identifier == "moveToTableSegue") {
+            print("move To TableSegue")
+            
         }
         
     }

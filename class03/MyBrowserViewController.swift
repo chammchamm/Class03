@@ -11,34 +11,28 @@ import WebKit
 
 class MyBrowserViewController: UIViewController, UITextFieldDelegate, AsyncReponseDelegate {
     
-    
-    func receviedReponse(_ sender: AsyncRequestWorker, responseString: String, tag: Int) {
+func receviedReponse(_ sender: AsyncRequestWorker, responseString: String, tag: Int) {
         
-        print(responseString)
-  
-    }
+    print(responseString)
+ }
     
-
-
     @IBOutlet weak var btnGoBottomConstraint: NSLayoutConstraint!
-
-   
+    @IBOutlet weak var myInputURLTextField: UITextField!
     @IBOutlet weak var myWebView: WKWebView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
-    let worker = AsyncRequestWorker()
+        let worker = AsyncRequestWorker()
         
         worker.reponseDelegate = self
-        
         worker.getResponse(from: "https://www.google.com", tag: 1)
         
+       // myWebView,load(URLRequest(url,URL(s))
+        myWebView.load(URLRequest( url: URL(string: "https://www.google.com")!))
         
-//        myWebView.load(URLRequest( url: URL(string: "https://www.google.com")!))
-//        myWebView,load(URLRequest(url,URL(s))
+  //      myInputURLTextField.delegate = self
     }
     
 
@@ -74,6 +68,39 @@ class MyBrowserViewController: UIViewController, UITextFieldDelegate, AsyncRepon
 //            UIResponder.keyboardWillHideNotification, object:nil)
     }
     
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        view.endEditing(true)
+        return true
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
+    // MARK: - TextField
+    
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        
+        let accept = "abcdeABCDE"
+        
+        let cs = NSCharacterSet(charactersIn: accept).inverted
+        
+        let filters = string.components(separatedBy: cs).joined(separator: "")
+        
+        if( string != filters)
+        {
+            return false
+        }
+        
+        let current = textField.text! as NSString
+        
+        let newString :NSString = current.replacingCharacters(in: range, with: string ) as NSString
+        
+        print("In my browserview '\(textField.text ?? "nostring")")
+        return newString.length <= 10
+    }
+    
+    
 
     @objc func keyboardWillAppear(notification: NSNotification?){
         print("keyboardWillAppear")
@@ -82,14 +109,15 @@ class MyBrowserViewController: UIViewController, UITextFieldDelegate, AsyncRepon
             else {
                 return}
         
-        self.btnGoBottomConstraint.constant = frame.cgRectValue.height + 10;
+        self.btnGoBottomConstraint.constant = frame.cgRectValue.height;
         
     }
     
     @objc func keyboardWillDisAppear(notification: NSNotification?){
         print("keyboardWillDisAppear")
         
-        
+        UIView.animate(withDuration: 5, animations: { self.btnGoBottomConstraint.constant = 31
+        })
     }
     
     @objc func dataReceived(notification: NSNotification?){
@@ -97,8 +125,8 @@ class MyBrowserViewController: UIViewController, UITextFieldDelegate, AsyncRepon
         guard let responseString = notification?.userInfo?["aaa"] as? String else  {
             return
         }
-        print("\(responseString)")
+        print("In MyBrowserViewController: \(responseString)")
         
-        myWebView.loadHTMLString(responseString, baseURL: URL(string: "https://www.google.com")!)
+  //      myWebView.loadHTMLString(responseString, baseURL: URL(string: //"https://www.apple.com")!)
         }
 }
