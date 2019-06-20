@@ -39,19 +39,15 @@ class ViewController: UIViewController {
     }
   
     
+   
     @IBAction func btnTableClicked(_ sender: Any) {
     
     self.performSegue(withIdentifier: "moveToTableSegue", sender: self)
     }
     
-    
-   
     @IBAction func btnMapClicked(_ sender: Any) {
         self.performSegue(withIdentifier: "moveToMapSegue", sender: self)
     }
-    
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()

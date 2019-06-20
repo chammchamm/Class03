@@ -20,7 +20,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //        UserDefaults.standard.setValue("ya!", forKey: "hi")
         //        UserDefaults.standard.synchronize()
         //
-        //
         //        print( "\( UserDefaults.standard.string(forKey: "hi")! )"  )
         
         print("We are in \( NSHomeDirectory() )")
