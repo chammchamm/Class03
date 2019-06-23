@@ -38,9 +38,12 @@ class ViewController: UIViewController {
         
     }
   
-    
+//    @IBAction func btnTableClicked(_ sender: UIButton) {
+//        self.performSegue(withIdentifier: "moveToTableViewSegue", sender: self)
+//    }
+//
    
-    @IBAction func btnTableClicked(_ sender: Any) {
+    @IBAction func btnTableClicked(_ sender: UIButton) {
     
     self.performSegue(withIdentifier: "moveToTableSegue", sender: self)
     }

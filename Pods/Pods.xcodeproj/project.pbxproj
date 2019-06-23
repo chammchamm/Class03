@@ -91,7 +91,7 @@
 		1E2028286E7C1D60B040E654F9D74BD8 /* SQLite-Bridging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SQLite-Bridging.m"; path = "Sources/SQLiteObjc/SQLite-Bridging.m"; sourceTree = "<group>"; };
 		1EB6762CC9FCC039759F594DB13C9012 /* Pods-class03Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-class03Tests.release.xcconfig"; sourceTree = "<group>"; };
 		287D3E6CF4B0306D87C9AFF9D6D167C5 /* Blob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blob.swift; path = Sources/SQLite/Core/Blob.swift; sourceTree = "<group>"; };
-		2AE499ADDBA1B4DF53F3F8FF2C432D94 /* Pods_class03UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_class03UITests.framework; path = "Pods-class03UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AE499ADDBA1B4DF53F3F8FF2C432D94 /* Pods_class03UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_class03UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33828AF51A3127B0E5CB02ED1EA4829E /* Pods-class03UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-class03UITests-umbrella.h"; sourceTree = "<group>"; };
 		33A5A7D61F3692CC8612E0B7E0F54B47 /* RTree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTree.swift; path = Sources/SQLite/Extensions/RTree.swift; sourceTree = "<group>"; };
 		3C6218D71D1880D6880B2D58C5365359 /* Pods-class03UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-class03UITests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -102,13 +102,13 @@
 		5AB59DCFF0A23A647E5283A227B0429F /* Pods-class03UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-class03UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5C2F2FB1856B67668CB28123566D9520 /* Pods-class03Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-class03Tests-dummy.m"; sourceTree = "<group>"; };
 		5CAF1F3F87534C32372A4C08FC1DE035 /* Pods-class03Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-class03Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5E96D8EDAFFD94DFB80D3C024A40B5C6 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SQLite.framework; path = SQLite.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E96D8EDAFFD94DFB80D3C024A40B5C6 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FB1FB0696751E6876F579F70A601254 /* Pods-class03-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-class03-acknowledgements.plist"; sourceTree = "<group>"; };
 		617F80AC7402AE60CE0CBF5BE5C8DF0E /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Sources/SQLite/Helpers.swift; sourceTree = "<group>"; };
 		62A9C0868484A497F2A0F050906E7C8F /* Pods-class03UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-class03UITests.modulemap"; sourceTree = "<group>"; };
 		64B0AB34A1B6E95F4ED7425ED509B3FF /* Pods-class03Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-class03Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6A6B6C9DAE548C7CCCC11121ADA04E04 /* Pods-class03UITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-class03UITests-Info.plist"; sourceTree = "<group>"; };
-		7018A9BA31A06B0C232C23613D94B1A6 /* Pods_class03Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_class03Tests.framework; path = "Pods-class03Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7018A9BA31A06B0C232C23613D94B1A6 /* Pods_class03Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_class03Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		706A88386A9896B9E9F6C2C463896CA1 /* Pods-class03UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-class03UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		70DFB0F4A6A4B9A30904C0F98791BEE7 /* SwiftyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyJSON-Info.plist"; sourceTree = "<group>"; };
 		7148D117BB9002591D9E27D68CFC8B90 /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/SQLite/Core/Errors.swift; sourceTree = "<group>"; };
@@ -118,11 +118,11 @@
 		8727B97B5DD865F92841957AB21E292A /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
 		893888927EDD0752CBCBC5047148FF1E /* Coding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coding.swift; path = Sources/SQLite/Typed/Coding.swift; sourceTree = "<group>"; };
 		8AC1E4F18AD45F127B4E190B7DFFDDC4 /* Pods-class03.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-class03.modulemap"; sourceTree = "<group>"; };
-		8AFEEECCB184756C05494785AD471852 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AFEEECCB184756C05494785AD471852 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E6264F2FCB61725E1E0F16D063C69A0 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
 		92AA6786210FEBBA1A57C1D8BAE0AA2A /* Pods-class03Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-class03Tests-umbrella.h"; sourceTree = "<group>"; };
 		9B98E3D6E235DCB0F7EC207F81AD830E /* Pods-class03-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-class03-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0A1530E25499535F91793FE2CDFD1B3 /* Collation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collation.swift; path = Sources/SQLite/Typed/Collation.swift; sourceTree = "<group>"; };
 		A915C93DA4289DF15871E2D38418047E /* SQLite.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-prefix.pch"; sourceTree = "<group>"; };
 		A9E3ACC342E1CEB541A1CB1839AF1B55 /* Pods-class03UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-class03UITests-dummy.m"; sourceTree = "<group>"; };
@@ -148,7 +148,7 @@
 		E4CF37AF70CA73BC6F1B00C843671269 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/SQLite/Typed/Operators.swift; sourceTree = "<group>"; };
 		EAAF486B56D4F7381EDFAC922693DAF2 /* CustomFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomFunctions.swift; path = Sources/SQLite/Typed/CustomFunctions.swift; sourceTree = "<group>"; };
 		EF7DA08787C5D56E64D6AF04A14002B0 /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Value.swift; path = Sources/SQLite/Core/Value.swift; sourceTree = "<group>"; };
-		F0D0E2C46AA14028B1C14643116DBD92 /* Pods_class03.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_class03.framework; path = "Pods-class03.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0D0E2C46AA14028B1C14643116DBD92 /* Pods_class03.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_class03.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8044990512BE6F2B1B780FC39348682 /* Statement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Statement.swift; path = Sources/SQLite/Core/Statement.swift; sourceTree = "<group>"; };
 		FC4DC2A4C7BEEFADAAED46FBE2139C45 /* Pods-class03-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-class03-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FE3A5186B4091494297C3FBBA2CD9783 /* Setter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Setter.swift; path = Sources/SQLite/Typed/Setter.swift; sourceTree = "<group>"; };
@@ -204,7 +204,6 @@
 				B55CE51B321EDF873479978959FCD01B /* SwiftyJSON.swift */,
 				8540BE0A2C6F53FA810192ECE5197A27 /* Support Files */,
 			);
-			name = SwiftyJSON;
 			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
@@ -238,7 +237,6 @@
 			isa = PBXGroup;
 			children = (
 				23F10CB91ABE1210B8E865242E22DC9B /* Pods-class03 */,
-				3CF3ABCD38F2EBA99B9C4830F2E69067 /* Pods-class03Tests */,
 				D354834CFB9DFA8D79F6F889BF560989 /* Pods-class03UITests */,
 			);
 			name = "Targets Support Files";
@@ -256,8 +254,7 @@
 				64B0AB34A1B6E95F4ED7425ED509B3FF /* Pods-class03Tests.debug.xcconfig */,
 				1EB6762CC9FCC039759F594DB13C9012 /* Pods-class03Tests.release.xcconfig */,
 			);
-			name = "Pods-class03Tests";
-			path = "Target Support Files/Pods-class03Tests";
+			path = "Pods-class03Tests";
 			sourceTree = "<group>";
 		};
 		3F0E71D9450AC6A455563375570E1A9A /* SQLite.swift */ = {
@@ -266,7 +263,6 @@
 				ED1557057BCFD8282EACBCB859418641 /* standard */,
 				C302F602E28EF3D0AF71835E54430E80 /* Support Files */,
 			);
-			name = SQLite.swift;
 			path = SQLite.swift;
 			sourceTree = "<group>";
 		};
@@ -325,6 +321,7 @@
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				35CB614C975A9FD9D55D3659F7212951 /* Pods */,
 				63A4732904B519FC1CD1A55219A6AC2E /* Products */,
+				3CF3ABCD38F2EBA99B9C4830F2E69067 /* Pods-class03Tests */,
 				3A7641880937D14CA917950E7B9DA3C7 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -542,6 +539,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;

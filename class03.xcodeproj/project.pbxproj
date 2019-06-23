@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		060EAA9722B739190088130B /* myTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060EAA9622B739190088130B /* myTableViewCell.swift */; };
 		060F225622924AD80068FE5B /* AsyncRequestWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060F225522924AD80068FE5B /* AsyncRequestWorker.swift */; };
+		0628A28C22BF33DB006ABADB /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0628A28B22BF33DB006ABADB /* MyTableViewCell.swift */; };
 		0667DCA9227FDEE40098CC9E /* MyBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0667DCA8227FDEE40098CC9E /* MyBrowserViewController.swift */; };
 		06785F6A22B7245300323CE1 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06785F6922B7245300323CE1 /* ProductListViewController.swift */; };
+		06D6057622BF5C8900F0DAEF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6057522BF5C8900F0DAEF /* DetailViewController.swift */; };
 		06ECDCD6226D5EFF00332817 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ECDCD5226D5EFF00332817 /* AppDelegate.swift */; };
 		06ECDCD8226D5EFF00332817 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ECDCD7226D5EFF00332817 /* ViewController.swift */; };
 		06ECDCDB226D5EFF00332817 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06ECDCD9226D5EFF00332817 /* Main.storyboard */; };
@@ -50,10 +51,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		060EAA9622B739190088130B /* myTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTableViewCell.swift; sourceTree = "<group>"; };
 		060F225522924AD80068FE5B /* AsyncRequestWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncRequestWorker.swift; sourceTree = "<group>"; };
+		0628A28B22BF33DB006ABADB /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 		0667DCA8227FDEE40098CC9E /* MyBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBrowserViewController.swift; sourceTree = "<group>"; };
 		06785F6922B7245300323CE1 /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		06D6057522BF5C8900F0DAEF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		06ECDCD2226D5EFF00332817 /* class03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = class03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06ECDCD5226D5EFF00332817 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06ECDCD7226D5EFF00332817 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -158,7 +160,8 @@
 				06F75E4822A4D71400A9DC40 /* ServiceCategory.swift */,
 				06FD2F2B229B999100FCE702 /* ServiceCategoryContext.swift */,
 				06785F6922B7245300323CE1 /* ProductListViewController.swift */,
-				060EAA9622B739190088130B /* myTableViewCell.swift */,
+				0628A28B22BF33DB006ABADB /* MyTableViewCell.swift */,
+				06D6057522BF5C8900F0DAEF /* DetailViewController.swift */,
 			);
 			path = class03;
 			sourceTree = "<group>";
@@ -435,12 +438,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06D6057622BF5C8900F0DAEF /* DetailViewController.swift in Sources */,
 				06FFFBE922A9CF82008C67A3 /* MyMapViewController.swift in Sources */,
 				060F225622924AD80068FE5B /* AsyncRequestWorker.swift in Sources */,
 				06ECDCD8226D5EFF00332817 /* ViewController.swift in Sources */,
 				06FD2F2C229B999100FCE702 /* ServiceCategoryContext.swift in Sources */,
 				06F75E4C22A4D71400A9DC40 /* Store.swift in Sources */,
-				060EAA9722B739190088130B /* myTableViewCell.swift in Sources */,
+				0628A28C22BF33DB006ABADB /* MyTableViewCell.swift in Sources */,
 				0667DCA9227FDEE40098CC9E /* MyBrowserViewController.swift in Sources */,
 				06F75E4622A4B45500A9DC40 /* imageVC.swift in Sources */,
 				06ECDCD6226D5EFF00332817 /* AppDelegate.swift in Sources */,
