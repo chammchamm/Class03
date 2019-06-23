@@ -156,8 +156,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9fG-vy-KZr">
-                                <rect key="frame" x="20" y="244" width="197" height="79"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9fG-vy-KZr">
+                                <rect key="frame" x="36" y="157" width="343" height="321"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -187,28 +187,25 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MyTableViewCell" rowHeight="212" id="BU5-l9-qLE" userLabel="MyTableViewCell" customClass="MyTableViewCell" customModule="class03" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="212"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MyTableViewCell" rowHeight="128" id="BU5-l9-qLE" userLabel="MyTableViewCell" customClass="MyTableViewCell" customModule="class03" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="128"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="BU5-l9-qLE" id="m5p-2R-A2S">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="211.66666666666666"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="127.66666666666667"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y3m-fr-dpO">
-                                                    <rect key="frame" x="0.0" y="11" width="414" height="179"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="414" id="Ge5-3c-6KM"/>
-                                                    </constraints>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y3m-fr-dpO">
+                                                    <rect key="frame" x="0.0" y="5" width="414" height="117.66666666666667"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="bottomMargin" secondItem="y3m-fr-dpO" secondAttribute="bottom" constant="11" id="GDp-Qf-Rx8"/>
+                                                <constraint firstItem="y3m-fr-dpO" firstAttribute="top" secondItem="m5p-2R-A2S" secondAttribute="top" constant="5" id="A1H-yg-8wG"/>
+                                                <constraint firstAttribute="bottom" secondItem="y3m-fr-dpO" secondAttribute="bottom" constant="5" id="AVQ-VY-Sze"/>
                                                 <constraint firstItem="y3m-fr-dpO" firstAttribute="leading" secondItem="m5p-2R-A2S" secondAttribute="leading" id="N6d-Lz-5Wa"/>
                                                 <constraint firstAttribute="trailing" secondItem="y3m-fr-dpO" secondAttribute="trailing" id="aL5-tr-dJS"/>
-                                                <constraint firstItem="y3m-fr-dpO" firstAttribute="top" secondItem="m5p-2R-A2S" secondAttribute="topMargin" id="gQX-Ej-OL0"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>

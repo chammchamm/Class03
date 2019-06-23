@@ -11,9 +11,7 @@ import UIKit
 class MyTableViewCell: UITableViewCell {
     
     static let identifier = "MyTableViewCell"
-    
-//    @IBOutlet weak var lbContent: UILabel!
-    
+       
     @IBOutlet weak var lbContent: UILabel!
     func updateContent(content : String) -> Void {
         
